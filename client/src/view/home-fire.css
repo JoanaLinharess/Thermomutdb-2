@@ -1,0 +1,282 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body
+{
+    min-height: 1000px;    
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.nav-item {
+    margin: 0px 15px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.jumbotron {
+    min-height: 90vh;
+    color: #fff;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-size: 57px;
+    font-weight:700;
+    color:#2D3F6A;;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+}
+
+.jumbotron h1 span {
+    color:#2D3F6A;
+}
+
+.sec {
+    padding: 50px 50px 50px 50px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.mxw {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 33px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.card-deck {
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(227px, 1fr));
+    grid-gap: 30px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.card {
+    align-items: center;
+}
+
+.card-deck .card {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.05);
+    border: none;
+    margin-top: 20px;
+}
+
+.card-deck .card .card-img-top {
+    margin-top: 25px;
+}
+
+.card-deck .card img {
+    max-width: 70px;
+    margin-bottom: 15px;
+}
+
+.card-deck .card .card-body h5{ 
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.stats {
+    background: #93AFD7;
+    padding-top: 250px;
+    margin-top: -250px;
+}
+ 
+ .stats h3, .stats p {
+     color: #fff;
+ }
+
+ .statBox {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.statBox h2{
+    color: #fff;
+    font-size: 36px;
+}
+
+.statBox h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.col-sm-4 {
+    max-width: 25.3%;
+}
+
+.cardWork {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 227px;
+}
+
+.cardWork .bodyBrand {
+    background: #8EA7CD;
+    min-height: 300px;
+    width: 227px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardWork .bodyBrand:hover {
+    background: #93AFD7;
+}
+
+.cardWork .bodyBrand a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 29px;
+}
+
+.cardWork .bodyBrand:hover a {
+    color: rgba(2,255,255,1);
+}
+
+
+
+.contact {
+    background: #93AFD7;    ;
+    color: #fff;
+}
+
+.nameMessage .form-group {
+    margin: 0 20px
+}
+
+.textMessage {
+    margin-right: -35px;
+    margin-left: -35px;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+    resize: none;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.iconFooter {
+    margin: 50px 0;
+}
+
+.fab {
+    margin: 0 17px;
+    font-size: 40px;
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.webFooter p small a.ancFooter {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.webFooter p small a:hover.ancFooter {
+    color: #007bff;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    margin-top: -190px;
+ }
+
+ .about {
+    background: #93AFD7;
+    padding-top: -120px;
+    margin-top: 70px;
+}
+ 
+ .about h3, .about p {
+     color: rgb(255, 255, 255);
+ }
+
+  .about img{
+    position: absolute;
+    margin-top: -290px;
+    left: -220px;
+    width: 200px;
+    height: 850px;
+  }
+
